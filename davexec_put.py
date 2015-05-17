@@ -5,11 +5,10 @@ import sys
 
 if __name__ == "__main__":
 
-    param = sys.argv
+    param = sys.argv()
 
-    print param
+    print (param)
 
-    print u"‘æ‚Pˆø”F" + param[1]
-    print u"‘æ‚Qˆø”F" + param[2]
-    print u"‘æ‚Rˆø”F" + param[3]
-	    
+    print (u"param1" + param[1])
+    print (u"param2" + param[2])
+    print (u"param3" + param[3])
