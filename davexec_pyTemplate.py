@@ -12,4 +12,3 @@ if __name__ == "__main__":
     print (u"param1" + param[1])
     print (u"param2" + param[2])
     print (u"param3" + param[3])
-
